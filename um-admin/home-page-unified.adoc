@@ -1,0 +1,45 @@
+---
+permalink: um-admin/home-page-unified.html 
+sidebar: sidebar 
+keywords: unified, manager, web, interface, allow, manage, multiple, storage, arrays, single, view 
+summary: Unified Manager是網路型介面、可讓您在單一檢視畫面中管理多個儲存陣列。 
+---
+= 介面總覽
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Unified Manager是網路型介面、可讓您在單一檢視畫面中管理多個儲存陣列。
+
+
+
+== 主頁
+
+登入Unified Manager時、主頁會開啟*管理-全部*。在此頁面中、您可以捲動瀏覽網路中探索到的儲存陣列清單、檢視其狀態、以及在單一陣列或陣列群組上執行作業。
+
+
+
+== 導覽側邊列
+
+導覽側邊列提供下列功能：
+
+* *管理*：探索網路中的儲存陣列、啟動SANtricity 陣列的支援功能、將設定從一個陣列匯入多個陣列、以及管理陣列群組。選取陣列名稱旁的核取方塊、即可對陣列名稱執行作業、例如匯入設定和建立陣列群組。每一列結尾的省略符號會提供即時功能表、以便在單一陣列上執行作業、例如重新命名。
+* *作業*：檢視批次作業的進度、例如將設定從一個陣列匯入另一個陣列。
++
+[NOTE]
+====
+當儲存陣列處於非最佳狀態時、部分作業無法使用。
+
+====
+* *憑證管理*-管理在瀏覽器與用戶端之間驗證的憑證。
+* *存取管理*-建立Unified Manager介面的使用者驗證。
+* *支援*-檢視技術支援選項、資源和聯絡人。
+
+
+
+
+== 橫幅功能
+
+您可以從上方橫幅存取Unified Manager介面的「說明」和其他文件。您也可以存取管理選項、這些選項可從登入名稱旁的下拉式清單中取得。

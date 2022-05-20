@@ -1,0 +1,334 @@
+---
+section: sm-settings
+title: 設定
+entries:
+- title: 警示
+  entries:
+  - title: 概念
+    entries:
+    - title: 警示的運作方式
+      url: "/sm-settings/how-alerts-work.html"
+    - title: 警示術語
+      url: "/sm-settings/alerts-terminology.html"
+  - title: 使用方法
+    entries:
+    - title: 管理電子郵件警示
+      entries:
+      - title: 設定郵件伺服器和收件者的警示
+        url: "/sm-settings/configure-mail-server-and-recipients-for-alerts.html"
+      - title: 編輯警示的電子郵件地址
+        url: "/sm-settings/edit-alert-email-addresses.html"
+      - title: 新增警示的電子郵件地址
+        url: "/sm-settings/add-alert-email-addresses.html"
+      - title: 刪除郵件伺服器或電子郵件地址以取得警示
+        url: "/sm-settings/delete-alert-email-addresses.html"
+      - title: 編輯郵件伺服器以取得警示
+        url: "/sm-settings/edit-mail-server-for-alerts.html"
+    - title: 管理SNMP警示
+      entries:
+      - title: 設定SNMP警示的社群和目的地
+        url: "/sm-settings/configure-snmp-alerts.html"
+      - title: 編輯SNMP設陷的社群名稱
+        url: "/sm-settings/edit-community-names-for-snmp-traps.html"
+      - title: 新增SNMP設陷的社群名稱
+        url: "/sm-settings/add-community-names-for-snmp-traps.html"
+      - title: 移除SNMP設陷的社群名稱
+        url: "/sm-settings/remove-community-name-for-snmp-traps.html"
+      - title: 設定SNMP mib變數
+        url: "/sm-settings/configure-snmp-mib-variables.html"
+      - title: 新增SNMP警示的設陷目的地
+        url: "/sm-settings/add-trap-destinations-for-snmp-alerts.html"
+      - title: 刪除設陷目的地
+        url: "/sm-settings/delete-trap-destinations.html"
+    - title: 管理系統記錄警示
+      entries:
+      - title: 設定系統記錄伺服器以發出警示
+        url: "/sm-settings/configure-syslog-server-for-alerts.html"
+      - title: 編輯系統記錄伺服器以取得警示
+        url: "/sm-settings/edit-syslog-servers-for-alerts.html"
+      - title: 新增系統記錄伺服器以供警示
+        url: "/sm-settings/add-syslog-servers-for-alerts.html"
+      - title: 刪除系統記錄伺服器以取得警示
+        url: "/sm-settings/delete-syslog-servers-for-alerts.html"
+  - title: 常見問題集
+    entries:
+    - title: 停用警示時該怎麼辦？
+      url: "/sm-settings/what-if-alerts-are-disabled.html"
+    - title: 如何設定SNMP或syslog警示？
+      url: "/sm-settings/how-do-i-configure-snmp-or-syslog-alerts.html"
+    - title: 為什麼陣列與警示之間的時間戳記不一致？
+      url: "/sm-settings/why-are-timestamps-inconsistent-between-the-array-and-alerts.html"
+- title: 系統：儲存陣列設定
+  entries:
+  - title: 概念
+    entries:
+    - title: 快取設定與效能
+      url: "/sm-settings/cache-settings-and-performance.html"
+    - title: 自動負載平衡總覽
+      url: "/sm-settings/automatic-load-balancing-overview.html"
+    - title: 預設主機作業系統類型
+      url: "/sm-settings/default-host-operating-system-type.html"
+  - title: 使用方法
+    entries:
+    - title: 編輯儲存陣列名稱
+      url: "/sm-settings/edit-storage-array-name.html"
+    - title: 開啟儲存陣列定位器指示燈
+      url: "/sm-settings/turn-on-storage-array-locator-lights.html"
+    - title: 同步儲存陣列時鐘
+      url: "/sm-settings/synchronize-storage-array-clocks.html"
+    - title: 儲存儲存陣列組態
+      url: "/sm-settings/save-storage-array-configuration.html"
+    - title: 清除儲存陣列組態
+      url: "/sm-settings/clear-storage-array-configuration.html"
+    - title: 設定登入橫幅
+      url: "/sm-settings/configure-login-banner.html"
+    - title: 管理工作階段逾時
+      url: "/sm-settings/manage-session-timeouts-sam.html"
+    - title: 變更儲存陣列的快取設定
+      url: "/sm-settings/change-cache-settings-for-storage-array.html"
+    - title: 設定主機連線報告
+      url: "/sm-settings/set-host-connectivity-reporting.html"
+    - title: 設定自動負載平衡
+      url: "/sm-settings/set-automatic-load-balancing.html"
+    - title: 變更預設主機類型
+      url: "/sm-settings/change-default-host-type.html"
+    - title: 啟用或停用舊版管理介面
+      url: "/sm-settings/enable-or-disable-legacy-management-interface.html"
+  - title: 常見問題集
+    entries:
+    - title: 什麼是控制器快取？
+      url: "/sm-settings/what-is-controller-cache.html"
+    - title: 什麼是快取排清？
+      url: "/sm-settings/what-is-cache-flushing.html"
+    - title: 什麼是快取區塊大小？
+      url: "/sm-settings/what-is-cache-block-size.html"
+    - title: 何時應該同步儲存陣列時鐘？
+      url: "/sm-settings/when-should-i-synchronize-storage-array-clocks.html"
+    - title: 什麼是主機連線報告？
+      url: "/sm-settings/what-is-host-connectivity-reporting.html"
+- title: 系統：iSCSI設定
+  entries:
+  - title: 概念
+    entries:
+    - title: iSCSI術語
+      url: "/sm-settings/iscsi-terminology.html"
+  - title: 使用方法
+    entries:
+    - title: 設定iSCSI連接埠
+      url: "/sm-settings/configure-iscsi-ports-system.html"
+    - title: 設定iSCSI驗證
+      url: "/sm-settings/configure-iscsi-authentication.html"
+    - title: 啟用iSCSI探索設定
+      url: "/sm-settings/enable-iscsi-discovery-settings.html"
+    - title: 檢視iSCSI統計資料套件
+      url: "/sm-settings/view-iscsi-statistics-packages-system.html"
+    - title: 檢視iSCSI工作階段
+      url: "/sm-settings/view-iscsi-sessions-system.html"
+    - title: 結束iSCSI工作階段
+      url: "/sm-settings/end-iscsi-session-system.html"
+    - title: 在InfiniBand連接埠上設定iSER
+      url: "/sm-settings/configure-iser-over-infiniband-ports-system.html"
+    - title: 檢視InfiniBand統計資料的iSER
+      url: "/sm-settings/view-iser-over-infiniband-statistics-system.html"
+  - title: 常見問題集
+    entries:
+    - title: 使用iSNS伺服器進行登錄時會發生什麼事？
+      url: "/sm-settings/what-happens-when-i-use-an-isns-server.html"
+    - title: iSCSI自動支援哪些登錄方法？
+      url: "/sm-settings/which-registration-methods-are-automatically-supported-for-iscsi.html"
+    - title: 我要如何解讀InfiniBand統計資料的iSER？
+      url: "/sm-settings/how-do-i-interpret-iser-over-infiniband-statistics.html"
+    - title: 在InfiniBand上設定或診斷iSER還需要做什麼？
+      url: "/sm-settings/what-else-do-i-need-to-do-to-configure-or-diagnose-iser-over-infiniband.html"
+- title: 系統：NVMe設定
+  entries:
+  - title: 概念
+    entries:
+    - title: NVMe總覽
+      url: "/sm-settings/nvme-overview.html"
+    - title: NVMe術語
+      url: "/sm-settings/nvme-terminology.html"
+  - title: 使用方法
+    entries:
+    - title: 設定NVMe over InfiniBand連接埠
+      url: "/sm-settings/configure-nvme-over-infiniband-ports-system.html"
+    - title: 設定NVMe over RoCE連接埠
+      url: "/sm-settings/configure-nvme-over-roce-ports-system.html"
+    - title: 檢視NVMe over Fabrics統計資料
+      url: "/sm-settings/view-nvme-over-fabrics-statistics-system.html"
+  - title: 常見問題集
+    entries:
+    - title: 如何解讀NVMe over Fabrics統計資料？
+      url: "/sm-settings/how-do-i-interpret-nvme-over-fabrics-statistics.html"
+    - title: 我還需要如何透過InfiniBand來設定或診斷NVMe？
+      url: "/sm-settings/what-else-do-i-need-to-do-to-configure-or-diagnose-nvme-over-infiniband.html"
+    - title: 我還需要做什麼才能透過RoCE來設定或診斷NVMe？
+      url: "/sm-settings/what-else-do-i-need-to-do-to-configure-or-diagnose-nvme-over-roce.html"
+    - title: 為什麼一個實體連接埠有兩個IP位址？
+      url: "/sm-settings/why-are-there-two-ip-addresses-for-one-physical-port.html"
+    - title: 為什麼一個實體連接埠有兩組參數？
+      url: "/sm-settings/why-are-there-two-sets-of-parameters-for-one-physical-port.html"
+- title: 系統：附加功能
+  entries:
+  - title: 概念
+    entries:
+    - title: 附加功能的運作方式
+      url: "/sm-settings/how-add-on-features-work.html"
+    - title: 附加功能術語
+      url: "/sm-settings/add-on-feature-terminology.html"
+  - title: 使用方法
+    entries:
+    - title: 取得功能金鑰檔案
+      url: "/sm-settings/obtain-a-feature-key-file.html"
+    - title: 啟用優質功能
+      url: "/sm-settings/enable-premium-feature.html"
+    - title: 啟用功能套件
+      url: "/sm-settings/enable-feature-pack.html"
+    - title: 下載命令列介面（CLI）
+      url: "/sm-settings/download-cli.html"
+- title: 系統：安全金鑰管理
+  entries:
+  - title: 概念
+    entries:
+    - title: 磁碟機安全功能的運作方式
+      url: "/sm-settings/how-the-drive-security-feature-works.html"
+    - title: 安全金鑰管理的運作方式
+      url: "/sm-settings/how-security-key-management-works.html"
+    - title: 推動安全性術語
+      url: "/sm-settings/drive-security-terminology.html"
+  - title: 使用方法
+    entries:
+    - title: 建立內部安全金鑰
+      url: "/sm-settings/create-internal-security-key.html"
+    - title: 建立外部安全金鑰
+      url: "/sm-settings/create-external-security-key.html"
+    - title: 變更安全金鑰
+      url: "/sm-settings/change-security-key.html"
+    - title: 從外部金鑰管理切換至內部金鑰管理
+      url: "/sm-settings/switch-from-external-to-internal-key-management.html"
+    - title: 編輯金鑰管理伺服器設定
+      url: "/sm-settings/edit-key-management-server-settings.html"
+    - title: 備份安全金鑰
+      url: "/sm-settings/back-up-security-key.html"
+    - title: 驗證安全金鑰
+      url: "/sm-settings/validate-security-key.html"
+    - title: 使用安全金鑰解除磁碟機鎖定
+      url: "/sm-settings/unlock-drives-using-an-internal-security-key.html"
+  - title: 常見問題集
+    entries:
+    - title: 在建立安全金鑰之前、我需要知道什麼？
+      url: "/sm-settings/what-do-i-need-to-know-before-creating-a-security-key.html"
+    - title: 為什麼我需要定義密碼？
+      url: "/sm-settings/why-do-i-need-to-define-a-pass-phrase.html"
+    - title: 為何務必記錄安全金鑰資訊？
+      url: "/sm-settings/why-is-it-important-to-record-security-key-information.html"
+    - title: 備份安全金鑰之前、我需要知道什麼？
+      url: "/sm-settings/what-do-i-need-to-know-before-backing-up-a-security-key.html"
+    - title: 在解除鎖定安全磁碟機之前、我需要知道什麼？
+      url: "/sm-settings/what-do-i-need-to-know-before-unlocking-secure-drives.html"
+    - title: 什麼是讀寫存取能力？
+      url: "/sm-settings/what-is-read-write-accessibility.html"
+    - title: 驗證安全金鑰需要知道什麼？
+      url: "/sm-settings/what-do-i-need-to-know-about-validating-the-security-key.html"
+    - title: 內部安全金鑰與外部安全金鑰管理有何不同？
+      url: "/sm-settings/what-is-the-difference-between-internal-security-key-and-external-security-key-management.html"
+- title: 存取管理
+  entries:
+  - title: 概念
+    entries:
+    - title: 存取管理的運作方式
+      url: "/sm-settings/how-access-management-works.html"
+    - title: 存取管理術語
+      url: "/sm-settings/access-management-terminology.html"
+    - title: 對應角色的權限
+      url: "/sm-settings/permissions-for-mapped-roles.html"
+    - title: 具有本機使用者角色的存取管理
+      url: "/sm-settings/access-management-with-local-user-roles.html"
+    - title: 使用目錄服務進行存取管理
+      url: "/sm-settings/access-management-with-directory-services.html"
+    - title: 使用SAML進行存取管理
+      url: "/sm-settings/access-management-with-saml.html"
+  - title: 使用方法
+    entries:
+    - title: 檢視本機使用者角色
+      url: "/sm-settings/view-local-user-roles.html"
+    - title: 變更密碼
+      url: "/sm-settings/change-passwords.html"
+    - title: 變更本機使用者密碼設定
+      url: "/sm-settings/change-local-user-passwords-settings.html"
+    - title: 新增目錄伺服器
+      url: "/sm-settings/add-directory-server.html"
+    - title: 編輯目錄伺服器設定和角色對應
+      url: "/sm-settings/edit-directory-server-settings.html"
+    - title: 移除目錄伺服器
+      url: "/sm-settings/remove-directory-server.html"
+    - title: 設定SAML
+      url: "/sm-settings/configure-saml.html"
+    - title: 變更SAML角色對應
+      url: "/sm-settings/change-saml-role-mappings.html"
+    - title: 匯出SAML服務供應商檔案
+      url: "/sm-settings/export-saml-service-provider-files.html"
+    - title: 檢視稽核記錄活動
+      url: "/sm-settings/view-audit-log-activity.html"
+    - title: 定義稽核記錄原則
+      url: "/sm-settings/define-log-policies.html"
+    - title: 從稽核記錄刪除事件
+      url: "/sm-settings/delete-events-from-the-audit-log.html"
+    - title: 設定系統記錄伺服器進行稽核記錄
+      url: "/sm-settings/configure-syslog-server-for-audit-logs.html"
+    - title: 編輯稽核記錄的syslog伺服器設定
+      url: "/sm-settings/edit-syslog-server-settings-for-audit-log-records.html"
+  - title: 常見問題集
+    entries:
+    - title: 為什麼我無法登入？
+      url: "/sm-settings/why-cant-i-log-in.html"
+    - title: 新增目錄伺服器之前、我需要知道什麼？
+      url: "/sm-settings/what-do-i-need-to-know-before-adding-a-directory-server.html"
+    - title: 我需要知道哪些關於對應至儲存陣列角色的資訊？
+      url: "/sm-settings/what-do-i-need-to-know-about-mapping-storage-array-roles.html"
+    - title: 哪些外部管理工具可能會受此變更影響？
+      url: "/sm-settings/which-external-management-tools-may-be-affected-by-this-change.html"
+    - title: 在設定及啟用SAML之前、我需要知道哪些資訊？
+      url: "/sm-settings/what-do-i-need-to-know-before-configuring-and-enabling-saml.html"
+    - title: 稽核記錄中記錄了哪些類型的事件？
+      url: "/sm-settings/what-types-of-events-are-recorded-in-the-audit-log.html"
+    - title: 設定syslog伺服器之前、我需要知道什麼？
+      url: "/sm-settings/what-do-i-need-to-know-before-configuring-a-syslog-server.html"
+    - title: 系統記錄伺服器不再接收稽核記錄。我該怎麼辦？
+      url: "/sm-settings/the-syslog-server-is-no-longer-receiving-audit-logs-what-do-i-do.html"
+- title: 憑證
+  entries:
+  - title: 概念
+    entries:
+    - title: 憑證的運作方式
+      url: "/sm-settings/how-certificates-work-sam.html"
+    - title: 憑證術語
+      url: "/sm-settings/certificate-terminology.html"
+  - title: 使用方法
+    entries:
+    - title: 控制器使用CA簽署的憑證
+      url: "/sm-settings/use-ca-signed-certificates-for-controllers.html"
+    - title: 重設管理憑證
+      url: "/sm-settings/reset-management-certificates.html"
+    - title: 檢視匯入的憑證資訊
+      url: "/sm-settings/view-imported-certificates.html"
+    - title: 以用戶端身分匯入控制器的憑證
+      url: "/sm-settings/import-trusted-certificates-for-controllers-acting-as-client.html"
+    - title: 啟用憑證撤銷檢查
+      url: "/sm-settings/enable-certificate-revocation-checking.html"
+    - title: 刪除信任的憑證
+      url: "/sm-settings/delete-trusted-certificates.html"
+    - title: 使用CA簽署的憑證來驗證金鑰管理伺服器
+      url: "/sm-settings/use-ca-signed-certificates-for-authentication-with-a-key-management-server.html"
+    - title: 匯出金鑰管理伺服器憑證
+      url: "/sm-settings/export-key-management-certificates.html"
+  - title: 常見問題集
+    entries:
+    - title: 為什麼會出現「無法存取其他控制器」對話方塊？
+      url: "/sm-settings/why-does-the-cannot-access-other-controller-dialog-appear.html"
+    - title: 如何知道需要將哪些憑證上傳至System Manager以進行外部金鑰管理？
+      url: "/sm-settings/how-do-i-know-what-certificates-need-to-be-uploaded-to-system-manager.html"
+    - title: 關於憑證撤銷檢查、我需要知道什麼？
+      url: "/sm-settings/what-do-i-need-to-know-about-certificate-revocation-checking.html"
+    - title: 哪些類型的伺服器會啟用撤銷檢查？
+      url: "/sm-settings/what-types-of-servers-will-revocation-checking-be-enabled-for.html"

@@ -1,0 +1,61 @@
+---
+permalink: sm-support/lldp-tlv-statistics.html 
+sidebar: sidebar 
+keywords: statistics, select, link, discovery, protocol, length 
+summary: LLDP TLV統計資料 
+---
+= LLDP TLV統計資料
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+選取「Link Layer Discovery Protocol（LLDP）Type Lengthing Value（TLV）Statistics（連結層探索傳輸協定（LLDP）類型長度值（TLV）統計資料）」時、這些統計資料將顯示兩組統計資料：一組用於本機裝置、另一組用於遠端裝置。本機裝置指的是控制器。遠端裝置是指控制器所連接的對等裝置、通常是交換器。
+
+[cols="2*"]
+|===
+| 統計資料 | 定義 
+
+
+ a| 
+iSCSI主機連接埠
+ a| 
+以「Controller #（控制器編號）」、「Port #（連接埠編號）」格式表示偵測到的主機連接埠位置。
+
+
+
+ a| 
+機箱ID
+ a| 
+表示機箱ID。
+
+
+
+ a| 
+機箱ID子類型
+ a| 
+表示機箱ID子類型。
+
+
+
+ a| 
+連接埠ID
+ a| 
+表示連接埠ID。
+
+
+
+ a| 
+連接埠ID子類型
+ a| 
+表示連接埠ID子類型。
+
+
+
+ a| 
+上線時間
+ a| 
+指出收件者LLDP代理程式認為資訊有效的秒數。
+
+|===
+您可以在狀態擷取檔案中找到其他LLDP TLV統計資料。

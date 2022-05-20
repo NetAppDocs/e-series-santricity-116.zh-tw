@@ -1,0 +1,110 @@
+---
+permalink: sm-settings/iscsi-terminology.html 
+sidebar: sidebar 
+keywords: iscsi, storage array, terms apply 
+summary: 瞭解iSCSI術語如何適用於您的儲存陣列。 
+---
+= iSCSI術語
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+瞭解iSCSI術語如何適用於您的儲存陣列。
+
+[cols="1a,3a"]
+|===
+| 期限 | 說明 
+
+
+ a| 
+CHAP
+ a| 
+Challenge Handshake驗證傳輸協定（CHAP）方法會在初始連結期間驗證目標和啟動器的身分識別。驗證是以稱為CHAP__SECUR__的共用安全金鑰為基礎。
+
+
+
+ a| 
+控制器
+ a| 
+控制器由主機板、韌體和軟體組成。它控制磁碟機並實作System Manager功能。
+
+
+
+ a| 
+DHCP
+ a| 
+動態主機組態傳輸協定（DHCP）是一種用於網際網路傳輸協定（IP）網路的傳輸協定、可用來動態分配網路組態參數、例如IP位址。
+
+
+
+ a| 
+IB
+ a| 
+InfiniBand（IB）是高效能伺服器與儲存系統之間資料傳輸的通訊標準。
+
+
+
+ a| 
+ICMP Ping回應
+ a| 
+網際網路控制訊息傳輸協定（ICMP）是網路電腦的作業系統用來傳送訊息的傳輸協定。ICMP訊息會判斷主機是否可連線、以及從該主機取得封包所需的時間。
+
+
+
+ a| 
+IQN
+ a| 
+iSCSI合格名稱（IQN）識別碼是iSCSI啟動器或iSCSI目標的唯一名稱。
+
+
+
+ a| 
+商用
+ a| 
+RDMA的iSCSI擴充（iSER）是一種傳輸協定、可延伸iSCSI傳輸協定、以透過RDMA傳輸（例如InfiniBand或乙太網路）進行操作。
+
+
+
+ a| 
+iSNS
+ a| 
+網際網路儲存名稱服務（iSNS）是一種傳輸協定、可在TCP/IP網路上自動探索、管理及設定iSCSI和光纖通道裝置。
+
+
+
+ a| 
+MAC位址
+ a| 
+乙太網路使用媒體存取控制識別碼（MAC位址）來區分連接同一個實體傳輸網路介面上兩個連接埠的獨立邏輯通道。
+
+
+
+ a| 
+管理用戶端
+ a| 
+管理用戶端是指安裝瀏覽器以存取System Manager的電腦。
+
+
+
+ a| 
+MTU
+ a| 
+最大傳輸單元（MTU）是可在網路中傳送的最大封包或框架。
+
+
+
+ a| 
+RDMA
+ a| 
+遠端直接記憶體存取（RDMA）是一項技術、可讓網路電腦在主記憶體中交換資料、而不需涉及任一部電腦的作業系統。
+
+
+
+ a| 
+未命名的探索工作階段
+ a| 
+啟用未命名探索工作階段選項時、iSCSI啟動器不需要指定目標IQN來擷取控制器資訊。
+
+|===

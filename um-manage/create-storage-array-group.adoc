@@ -1,0 +1,22 @@
+---
+permalink: um-manage/create-storage-array-group.html 
+sidebar: sidebar 
+keywords: create, storage, array, group, 
+summary: 您可以建立儲存群組、然後將儲存陣列新增至群組。儲存設備群組會定義哪些磁碟機提供組成磁碟區的儲存設備。 
+---
+= 建立儲存陣列群組
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以建立儲存群組、然後將儲存陣列新增至群組。儲存設備群組會定義哪些磁碟機提供組成磁碟區的儲存設備。
+
+.步驟
+. 從*管理*頁面中、選取功能表：管理群組[建立儲存陣列群組]。
+. 在*名稱*欄位中、輸入新群組的名稱。
+. 選取您要新增至新群組的儲存陣列。
+. 按一下「 * 建立 * 」。
+

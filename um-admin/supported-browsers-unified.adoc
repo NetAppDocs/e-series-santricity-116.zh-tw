@@ -1,0 +1,61 @@
+---
+permalink: um-admin/supported-browsers-unified.html 
+sidebar: sidebar 
+keywords: santricity, unified, manager, access, several, types, browsers 
+summary: 可從多種瀏覽器存取支援的支援功能。SANtricity 
+---
+= 支援的瀏覽器
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+可從多種瀏覽器存取支援的支援功能。SANtricity
+
+支援下列瀏覽器和版本。
+
+[cols="2*"]
+|===
+| 瀏覽器 | 最低版本 
+
+
+ a| 
+Google Chrome
+ a| 
+47
+
+
+
+ a| 
+Microsoft Internet Explorer
+ a| 
+11.
+
+
+
+ a| 
+Microsoft Edge
+ a| 
+EdgeHTML 12.
+
+
+
+ a| 
+Mozilla Firefox
+ a| 
+31
+
+
+
+ a| 
+Safari
+ a| 
+9.
+
+|===
+[NOTE]
+====
+必須安裝Web服務Proxy、並可供瀏覽器使用。
+
+====

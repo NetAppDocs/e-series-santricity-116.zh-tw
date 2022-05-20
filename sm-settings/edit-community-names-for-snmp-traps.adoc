@@ -1,0 +1,39 @@
+---
+permalink: sm-settings/edit-community-names-for-snmp-traps.html 
+sidebar: sidebar 
+keywords: edit, community, names, snmp traps, destination 
+summary: 您可以編輯SNMP設陷的社群名稱、也可以將不同的社群名稱與SNMP設陷目的地建立關聯。 
+---
+= 編輯SNMP設陷的社群名稱
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以編輯SNMP設陷的社群名稱、也可以將不同的社群名稱與SNMP設陷目的地建立關聯。
+
+必須建立社群名稱、僅包含可列印的Ascii字元。社群名稱是類似網路伺服器密碼的字串、由網路管理員建立。
+
+.步驟
+. 選取*功能表：設定[警示]*。
+. 選取「* SNMP *」索引標籤。
++
+陷阱目的地和社群名稱會出現在表格中。
+
+. 編輯社群名稱如下：
++
+** 若要編輯社群名稱、請選取*設定社群*。輸入新的社群名稱、然後按一下「*儲存*」。社群名稱只能由可列印的Ascii字元組成。
+** 若要將社群名稱與新的陷阱目的地建立關聯、請從表格中選取社群名稱、然後按一下最右側的*編輯*（鉛筆）圖示。從「Community Name（社群名稱）」下拉式清單中、選取SNMP設陷目的地的新社群名稱、然後按一下*「Save"（儲存）*（勾選）圖示。
++
+[NOTE]
+====
+如果您要取消變更、請選取*取消*（X）圖示。
+
+====
+
+
+
+
+「*警示*」頁面的「* SNMP *」索引標籤會顯示更新的社群。

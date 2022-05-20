@@ -1,0 +1,27 @@
+---
+permalink: sm-interface/setup-wizard-overview.html 
+sidebar: sidebar 
+keywords: setup wizard, configure, storage, array, hardware, host, application workload, alert, autosupport 
+summary: 使用設定精靈來設定儲存陣列、包括硬體、主機、應用程式、工作負載、 資源池、警示和AutoSupport 
+---
+= 設定精靈總覽
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+使用設定精靈來設定儲存陣列、包括硬體、主機、應用程式、工作負載、 資源池、警示和AutoSupport
+
+第一次開啟System Manager時、會啟動設定精靈。
+
+安裝精靈會提示您執行基本的組態工作、例如命名儲存陣列、設定主機、選取應用程式、以及建立儲存資源池。
+
+如果您取消精靈、就無法手動重新啟動精靈。
+
+當您開啟System Manager或重新整理瀏覽器時、精靈會自動重新啟動、且至少符合下列條件之一：
+
+* 未偵測到資源池和磁碟區群組。
+* 未偵測到工作負載。
+* 未設定任何通知。
+

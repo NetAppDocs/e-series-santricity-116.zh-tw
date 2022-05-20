@@ -1,0 +1,130 @@
+---
+section: sm-mirroring
+title: 鏡射
+entries:
+- title: 非同步鏡射
+  entries:
+  - title: 概念
+    entries:
+    - title: 非同步鏡射的運作方式
+      url: "/sm-mirroring/how-asynchronous-mirroring-works.html"
+    - title: 非同步鏡射術語
+      url: "/sm-mirroring/asynchronous-terminology.html"
+    - title: 非同步鏡射磁碟區的工作流程
+      url: "/sm-mirroring/workflow-for-mirroring-a-volume-asynchronously.html"
+    - title: 使用非同步鏡射的需求
+      url: "/sm-mirroring/requirements-for-using-asynchronous-mirroring.html"
+    - title: 非同步鏡射狀態
+      url: "/sm-mirroring/asynchronous-mirror-status.html"
+    - title: Volume擁有權
+      url: "/sm-mirroring/volume-ownership-async.html"
+    - title: 鏡射一致性群組的角色變更
+      url: "/sm-mirroring/role-change-of-a-mirror-consistency-group.html"
+  - title: 使用方法
+    entries:
+    - title: 管理鏡射一致性群組
+      entries:
+      - title: 測試鏡射一致性群組的通訊
+        url: "/sm-mirroring/test-communication-for-mirror-consistency-groups.html"
+      - title: 暫停或恢復鏡射一致性群組的同步
+        url: "/sm-mirroring/suspend-or-resume-mirror-consistency-group.html"
+      - title: 變更鏡射一致性群組的同步處理設定
+        url: "/sm-mirroring/change-synchronization-settings-for-a-mirror-consistency-group.html"
+      - title: 手動重新同步鏡射一致性群組
+        url: "/sm-mirroring/re-synchronize-mirror-consistency-group-manually.html"
+      - title: 檢視鏡射一致性群組之間的非同步資料量
+        url: "/sm-mirroring/view-unsynchronized-data-amount-between-mirror-consistency-groups.html"
+      - title: 更新遠端IP位址
+        url: "/sm-mirroring/update-remote-ip-address.html"
+      - title: 將鏡射一致性群組角色變更為主要或次要角色
+        url: "/sm-mirroring/change-mirror-consistency-group-role-to-primary-or-secondary.html"
+      - title: 刪除鏡射一致性群組
+        url: "/sm-mirroring/delete-mirror-consistency-group.html"
+    - title: 管理非同步鏡射配對
+      entries:
+      - title: 移除非同步鏡射關係
+        url: "/sm-mirroring/remove-mirrored-pair.html"
+      - title: 增加保留容量
+        url: "/sm-mirroring/increase-reserved-capacity.html"
+      - title: 變更鏡射配對Volume的保留容量設定
+        url: "/sm-mirroring/change-the-reserved-capacity-settings-for-a-mirrored-pair-volume.html"
+      - title: 為舊系統上建立的主要磁碟區建立完整鏡射配對
+        url: "/sm-mirroring/complete-mirrored-pair-for-primary-volumes-created-on-legacy-system.html"
+    - title: 停用非同步鏡射
+      url: "/sm-mirroring/deactivate-asynchronous-mirroring.html"
+  - title: 常見問題集
+    entries:
+    - title: 非同步鏡射與同步鏡射有何不同？
+      url: "/sm-mirroring/how-does-asynchronous-mirroring-differ-from-synchronous-mirroring-async.html"
+    - title: 為什麼我無法存取所選的鏡射功能？
+      url: "/sm-mirroring/why-cant-i-access-my-chosen-mirroring-feature.html"
+    - title: 在建立鏡射一致性群組之前、我需要知道什麼？
+      url: "/sm-mirroring/what-do-i-need-to-know-before-creating-a-mirror-consistency-group.html"
+    - title: 非同步鏡射-建立鏡射配對之前、我需要知道什麼？
+      url: "/sm-mirroring/asynchronous-mirroring-what-do-i-need-to-know-before-creating-a-mirrored-pair.html"
+    - title: 在增加鏡射配對磁碟區上的保留容量之前、我需要知道什麼？
+      url: "/sm-mirroring/what-do-i-need-to-know-before-increasing-my-reserved-capacity-on-a-mirrored-pair-volume.html"
+    - title: 為什麼我無法以要求的金額來增加保留容量？
+      url: "/sm-mirroring/why-cant-i-increase-reserved-capacity-with-my-requested-amount.html"
+    - title: 為什麼要變更這個百分比？
+      url: "/sm-mirroring/why-would-i-change-this-percentage.html"
+    - title: 為什麼我會看到多個保留容量的候選對象？
+      url: "/sm-mirroring/why-do-i-see-more-than-one-reserved-capacity-candidate.html"
+    - title: 為什麼我在表格中看到無法使用的值？
+      url: "/sm-mirroring/why-do-i-see-not-available-values-displayed-in-the-table.html"
+    - title: 為什麼我看不到所有的集區和Volume群組？
+      url: "/sm-mirroring/why-dont-i-see-all-of-my-pools-and-volume-groups.html"
+    - title: 非同步鏡射：為什麼我看不到所有磁碟區？
+      url: "/sm-mirroring/asynchronous-mirroring-why-dont-i-see-all-my-volumes.html"
+    - title: 非同步鏡射：為什麼我看不到遠端儲存陣列上的所有磁碟區？
+      url: "/sm-mirroring/asynchronous-mirroring-why-dont-i-see-all-the-volumes-on-the-remote-storage-array.html"
+    - title: 為何要更新遠端儲存陣列的IP位址？
+      url: "/sm-mirroring/why-would-i-update-my-remote-storage-arrays-ip-address.html"
+- title: 同步鏡射
+  entries:
+  - title: 概念
+    entries:
+    - title: 同步鏡射的運作方式
+      url: "/sm-mirroring/how-synchronous-mirroring-works.html"
+    - title: 同步鏡射術語
+      url: "/sm-mirroring/synchronous-mirroring-terminology.html"
+    - title: 同步鏡射磁碟區的工作流程
+      url: "/sm-mirroring/workflow-for-mirroring-a-volume-synchronously.html"
+    - title: 使用同步鏡射的需求
+      url: "/sm-mirroring/requirements-for-using-synchronous-mirroring.html"
+    - title: 同步鏡射狀態
+      url: "/sm-mirroring/synchronous-mirroring-status.html"
+    - title: Volume擁有權
+      url: "/sm-mirroring/volume-ownership-sync.html"
+    - title: 鏡射配對中磁碟區之間的角色變更
+      url: "/sm-mirroring/role-change-of-volumes-in-a-mirrored-pair.html"
+  - title: 使用方法
+    entries:
+    - title: 管理同步鏡射配對
+      entries:
+      - title: 測試同步鏡射的通訊
+        url: "/sm-mirroring/test-communication-for-synchronous-mirroring.html"
+      - title: 暫停並恢復鏡射配對的同步
+        url: "/sm-mirroring/suspend-and-resume-synchronization-for-a-mirrored-pair.html"
+      - title: 變更鏡射配對中磁碟區之間的角色
+        url: "/sm-mirroring/change-role-between-volumes-in-a-mirrored-pair.html"
+      - title: 變更鏡射配對的同步處理設定
+        url: "/sm-mirroring/change-synchronization-settings-for-a-mirrored-pair.html"
+      - title: 移除同步鏡射關係
+        url: "/sm-mirroring/remove-synchronous-mirror-relationship.html"
+    - title: 停用同步鏡射
+      url: "/sm-mirroring/deactivate-synchronous-mirroring.html"
+  - title: 常見問題集
+    entries:
+    - title: 同步鏡射與非同步鏡射有何不同？
+      url: "/sm-mirroring/how-does-asynchronous-mirroring-differ-from-synchronous-mirroring-sync.html"
+    - title: 同步鏡射：為什麼我看不到所有磁碟區？
+      url: "/sm-mirroring/synchronous-mirroring-why-dont-i-see-all-my-volumes.html"
+    - title: 同步鏡射：為什麼我看不到遠端儲存陣列上的所有磁碟區？
+      url: "/sm-mirroring/synchronous-mirroring-why-dont-i-see-all-the-volumes-on-the-remote-storage-array.html"
+    - title: 同步鏡射-建立鏡射配對之前、我需要知道什麼？
+      url: "/sm-mirroring/synchronous-mirroring-what-do-i-need-to-know-before-creating-a-mirrored-pair.html"
+    - title: 同步處理優先順序對同步處理速率有何影響？
+      url: "/sm-mirroring/what-impact-does-synchronization-priority-have-on-synchronization-rates.html"
+    - title: 為什麼建議使用手動同步原則？
+      url: "/sm-mirroring/why-is-it-recommended-to-use-a-manual-synchronization-policy.html"

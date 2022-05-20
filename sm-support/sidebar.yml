@@ -1,0 +1,149 @@
+---
+section: sm-support
+title: 支援
+entries:
+- title: 支援中心
+  entries:
+  - title: 概念
+    entries:
+    - title: 功能概述AutoSupport
+      url: "/sm-support/autosupport-feature-overview.html"
+    - title: 功能的工作流程AutoSupport
+      url: "/sm-support/workflow-for-autosupport.html"
+  - title: 使用方法
+    entries:
+    - title: 檢視儲存陣列資訊
+      entries:
+      - title: 檢視儲存陣列設定檔
+        url: "/sm-support/view-storage-array-profile.html"
+      - title: 檢視軟體與韌體庫存
+        url: "/sm-support/view-software-and-firmware-inventory.html"
+    - title: 收集診斷資料
+      entries:
+      - title: 手動收集支援資料
+        url: "/sm-support/collect-support-data-manually.html"
+      - title: 擷取恢復支援檔案
+        url: "/sm-support/retrieve-recovery-support-files.html"
+      - title: 擷取追蹤緩衝區
+        url: "/sm-support/retrieve-trace-buffers.html"
+      - title: 收集磁碟機資料
+        url: "/sm-support/collect-drive-data.html"
+      - title: 收集I/O路徑統計資料
+        url: "/sm-support/collect-i-o-path-statistics.html"
+      - title: 擷取健全狀況映像
+        url: "/sm-support/retrieve-health-image.html"
+    - title: 針對儲存陣列狀態採取恢復行動
+      entries:
+      - title: 檢視無法讀取的磁區記錄
+        url: "/sm-support/view-unreadable-sectors-log.html"
+      - title: 重新啟用磁碟機連接埠
+        url: "/sm-support/re-enable-drive-ports.html"
+      - title: 清除恢復模式
+        url: "/sm-support/clear-recovery-mode.html"
+    - title: 管理iSCSI連線
+      entries:
+      - title: 檢視iSCSI統計資料套件
+        url: "/sm-support/view-iscsi-statistics-packages-support.html"
+      - title: 檢視不同類型的iSCSI統計資料
+        url: "/sm-support/view-the-different-types-of-iscsi-statistics.html"
+        entries:
+        - title: Mac傳輸與MAC接收統計資料
+          url: "/sm-support/mac-transmit-and-mac-receive-statistics.html"
+        - title: 乙太網路TCP/IP統計資料
+          url: "/sm-support/ethernet-tcp-ip-statistics.html"
+        - title: iSCSI目標統計資料與本機啟動器統計資料
+          url: "/sm-support/iscsi-target-statistics-and-local-initiator-statistics.html"
+        - title: DCBX作業狀態統計資料
+          url: "/sm-support/dcbx-operational-state-statistics.html"
+        - title: LLDP TLV統計資料
+          url: "/sm-support/lldp-tlv-statistics.html"
+        - title: DCBX TLV統計資料
+          url: "/sm-support/dcbx-tlv-statistics.html"
+      - title: 檢視iSCSI工作階段
+        url: "/sm-support/view-iscsi-sessions-support.html"
+      - title: 結束iSCSI工作階段
+        url: "/sm-support/end-iscsi-session-support.html"
+      - title: 檢視InfiniBand統計資料的iSER
+        url: "/sm-support/view-iser-over-infiniband-statistics-support.html"
+    - title: 管理NVMe連線
+      entries:
+      - title: 檢視NVMe over Fabrics統計資料
+        url: "/sm-support/view-nvme-over-fabrics-statistics-support.html"
+    - title: 管理AutoSupport
+      entries:
+      - title: 啟用或停用AutoSupport 功能
+        url: "/sm-support/enable-or-disable-autosupport-features.html"
+      - title: 啟用AutoSupport 還原維護所需時間
+        url: "/sm-support/enable-autosupport-maintenance-window.html"
+      - title: 停用AutoSupport 還原維護所需時間
+        url: "/sm-support/disable-autosupport-maintenance-window.html"
+      - title: 設定AutoSupport 供應功能
+        url: "/sm-support/configure-autosupport-delivery-method.html"
+      - title: 排程AutoSupport 資訊派單
+        url: "/sm-support/schedule-autosupport-dispatches.html"
+      - title: 傳送AutoSupport 本文件
+        url: "/sm-support/send-autosupport-dispatches.html"
+      - title: 檢視AutoSupport 畫面狀態
+        url: "/sm-support/view-autosupport-status.html"
+      - title: 檢視AutoSupport 資訊記錄
+        url: "/sm-support/view-autosupport-log.html"
+  - title: 常見問題集
+    entries:
+    - title: 我要收集哪些資料？
+      url: "/sm-support/which-data-am-i-collecting-in-a-customer-support-bundle.html"
+    - title: 無法讀取的區段資料會顯示什麼？
+      url: "/sm-support/what-does-unreadable-sectors-data-show-me.html"
+    - title: 什麼是健全狀況映像？
+      url: "/sm-support/what-is-a-health-image.html"
+    - title: 我還需要做什麼才能設定或診斷iSCSI？
+      url: "/sm-support/what-else-do-i-need-to-do-to-configure-or-diagnose-iscsi.html"
+    - title: 這個功能有什麼AutoSupport 作用？
+      url: "/sm-support/what-do-the-autosupport-features-do.html"
+    - title: 透過此功能收集哪種類型的資料AutoSupport ？
+      url: "/sm-support/what-type-of-data-is-collected-through-autosupport.html"
+    - title: 我要如何設定AutoSupport 供應方法以使用「不知道」功能？
+      url: "/sm-support/how-do-i-configure-the-delivery-method-for-autosupport.html"
+- title: 事件記錄
+  entries:
+  - title: 概念
+    entries:
+    - title: 重大事件
+      url: "/sm-support/critical-events.html"
+    - title: 事件記錄
+      url: "/sm-support/event-log.html"
+  - title: 使用方法
+    entries:
+    - title: 使用事件記錄檢視事件
+      url: "/sm-support/view-events-using-the-event-log.html"
+- title: 升級中心
+  entries:
+  - title: 概念
+    entries:
+    - title: 控制器軟體與韌體升級
+      url: "/sm-support/controller-software-and-firmware-upgrades.html"
+    - title: 控制器軟體與韌體升級的工作流程
+      url: "/sm-support/workflow-for-controller-software-and-firmware-upgrade.html"
+    - title: 磁碟機韌體升級
+      url: "/sm-support/drive-firmware-upgrades.html"
+  - title: 使用方法
+    entries:
+    - title: 升級軟體與韌體
+      url: "/sm-support/upgrade-controller-software-and-firmware.html"
+    - title: 啟動控制器軟體和韌體
+      url: "/sm-support/activate-controller-software-and-firmware.html"
+    - title: 升級磁碟機韌體
+      url: "/sm-support/upgrade-drive-firmware.html"
+    - title: 檢閱可能的軟體和韌體升級錯誤
+      url: "/sm-support/review-the-possible-software-and-firmware-upgrade-errors.html"
+  - title: 常見問題集
+    entries:
+    - title: 升級SANtricity 完《不知如何」的《不知如何？
+      url: "/sm-support/what-do-i-need-to-know-before-upgrading-the-santricity-os-software.html"
+    - title: 在暫停IOM自動同步之前、我需要知道什麼？
+      url: "/sm-support/what-do-i-need-to-know-before-suspending-iom-auto-synchronization.html"
+    - title: 我的韌體升級為什麼進展緩慢？
+      url: "/sm-support/why-is-my-firmware-upgrade-progressing-so-slowly.html"
+    - title: 升級磁碟機韌體之前、我需要知道什麼？
+      url: "/sm-support/what-do-i-need-to-know-before-upgrading-drive-firmware.html"
+    - title: 如何選擇要執行的升級類型？
+      url: "/sm-support/how-do-i-choose-which-type-of-upgrade-to-perform.html"

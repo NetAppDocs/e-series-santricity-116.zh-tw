@@ -1,0 +1,22 @@
+---
+permalink: um-manage/launch-considerations.html 
+sidebar: sidebar 
+keywords: considerations, for, accessing, santricity, system, manager, 
+summary: 您可以選擇一或多個儲存陣列、並在SANtricity 您想要設定及管理儲存陣列時、使用「Launch」（啟動）選項來開啟「精選系統管理程式」。 
+---
+= 存取SANtricity 《系統管理程式》的考量
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以選擇一或多個儲存陣列、並在SANtricity 您想要設定及管理儲存陣列時、使用「Launch」（啟動）選項來開啟「精選系統管理程式」。
+
+「系統管理程式」是E2800或E5700控制器上的內嵌應用程式、透過乙太網路管理連接埠連線至網路。SANtricity
+
+適用於E2800或E5700陣列的所有陣列式功能均包含在內。SANtricity
+
+若要存取SANtricity 「系統管理程式」、您必須透過網頁瀏覽器建立到網路管理用戶端的頻外連線。
+
+image::../media/single2800.gif[辛格2800]

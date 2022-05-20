@@ -1,0 +1,14 @@
+---
+permalink: sm-support/view-the-different-types-of-iscsi-statistics.html 
+sidebar: sidebar 
+keywords: review, different, sets, statistics, raw, baseline, ethernet, target, local, initiator, protocol, operational, state 
+summary: 您可以將不同的統計資料集複寫為原始或基礎統計資料：乙太網路MAC統計資料、乙太網路TCP/IP統計資料、目標（傳輸協定）統計資料、本機啟動器（傳輸協定）統計資料、DCBX作業狀態統計資料、LLDP TLV統計資料及DCBX TLV統計資料。 
+---
+= 檢視不同類型的iSCSI統計資料
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以將不同的統計資料集複寫為原始或基礎統計資料：乙太網路MAC統計資料、乙太網路TCP/IP統計資料、目標（傳輸協定）統計資料、本機啟動器（傳輸協定）統計資料、DCBX作業狀態統計資料、LLDP TLV統計資料及DCBX TLV統計資料。

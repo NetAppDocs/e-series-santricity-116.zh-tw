@@ -1,0 +1,234 @@
+---
+permalink: sm-support/mac-transmit-and-mac-receive-statistics.html 
+sidebar: sidebar 
+keywords: transmit, receive, statistics, ethernet, transmit 
+summary: Mac傳輸與MAC接收統計資料 
+---
+= Mac傳輸與MAC接收統計資料
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+當您選取乙太網路MAC統計資料時、會顯示這些MAC傳輸統計資料。您可以將每個統計資料檢視為原始統計資料或是基準統計資料。
+
+[cols="2*"]
+|===
+| 統計資料 | 定義 
+
+
+ a| 
+f
+ a| 
+影格數
+
+
+
+ a| 
+b
+ a| 
+位元組數
+
+
+
+ a| 
+手動鎖定
+ a| 
+多點傳送框架數
+
+
+
+ a| 
+bf
+ a| 
+廣播影格數
+
+
+
+ a| 
+pf
+ a| 
+暫停影格數
+
+
+
+ a| 
+CF
+ a| 
+控制框架數
+
+
+
+ a| 
+FDF
+ a| 
+框架延遲計數
+
+
+
+ a| 
+聯邦
+ a| 
+框架過度延遲計數
+
+
+
+ a| 
+FLC
+ a| 
+框架延遲衝突數
+
+
+
+ a| 
+FA
+ a| 
+影格中止計數
+
+
+
+ a| 
+FSC
+ a| 
+框架單一衝突計數
+
+
+
+ a| 
+FMC
+ a| 
+框架多個衝突數
+
+
+
+ a| 
+FC
+ a| 
+影格衝突數
+
+
+
+ a| 
+FDR
+ a| 
+丟棄的框架數
+
+
+
+ a| 
+JF
+ a| 
+巨型框架數
+
+|===
+當您選取乙太網路MAC統計資料時、會顯示這些MAC接收統計資料。
+
+[cols="2*"]
+|===
+| 統計資料 | 定義 
+
+
+ a| 
+f
+ a| 
+影格數
+
+
+
+ a| 
+b
+ a| 
+位元組數
+
+
+
+ a| 
+手動鎖定
+ a| 
+多點傳送框架數
+
+
+
+ a| 
+bf
+ a| 
+廣播影格數
+
+
+
+ a| 
+pf
+ a| 
+暫停影格數
+
+
+
+ a| 
+CF
+ a| 
+控制框架數
+
+
+
+ a| 
+FLE
+ a| 
+影格長度錯誤數
+
+
+
+ a| 
+fd
+ a| 
+丟棄的框架數
+
+
+
+ a| 
+FCRCE
+ a| 
+框架crc錯誤數
+
+
+
+ a| 
+費用
+ a| 
+框架編碼錯誤數
+
+
+
+ a| 
+Lfe
+ a| 
+大型框架錯誤數
+
+
+
+ a| 
+SFE
+ a| 
+小影格錯誤數
+
+
+
+ a| 
+j
+ a| 
+傑巴伯數
+
+
+
+ a| 
+UCC
+ a| 
+未知的控制框架數
+
+
+
+ a| 
+CSE
+ a| 
+載體感測錯誤計數
+
+|===

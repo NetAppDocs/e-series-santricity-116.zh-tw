@@ -1,0 +1,13 @@
+---
+permalink: sm-mirroring/generic-faqs.html 
+sidebar: sidebar 
+keywords: faqs 
+summary: 常見問題集 
+---
+= 常見問題集
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+*常見問題集...*

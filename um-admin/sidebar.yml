@@ -1,0 +1,26 @@
+---
+section: um-admin
+title: 主介面
+entries:
+- title: Unified Manager總覽
+  entries:
+  - title: 概念
+    entries:
+    - title: 介面總覽
+      url: "/um-admin/home-page-unified.html"
+    - title: 支援的瀏覽器
+      url: "/um-admin/supported-browsers-unified.html"
+- title: Unified Manager管理
+  entries:
+  - title: 概念
+    entries:
+    - title: 系統管理員密碼保護
+      url: "/um-admin/administrator-password-protection-unified.html"
+  - title: 使用方法
+    entries:
+    - title: 變更管理密碼
+      url: "/um-admin/change-admin-password-unified.html"
+    - title: 變更儲存陣列密碼
+      url: "/um-admin/change-storage-array-passwords.html"
+    - title: 管理工作階段逾時
+      url: "/um-admin/manage-session-timeouts-unified.html"

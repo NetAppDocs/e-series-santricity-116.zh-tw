@@ -1,0 +1,88 @@
+---
+permalink: sm-support/iscsi-target-statistics-and-local-initiator-statistics.html 
+sidebar: sidebar 
+keywords: target, statistics, local, initiator, statistics, select, target 
+summary: iSCSI目標統計資料與本機啟動器統計資料 
+---
+= iSCSI目標統計資料與本機啟動器統計資料
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+選取目標（傳輸協定）統計資料或本機啟動器（傳輸協定）統計資料時、會顯示下列統計資料。您可以將每個統計資料檢視為原始統計資料或是基準統計資料。
+
+[cols="2*"]
+|===
+| 統計資料 | 定義 
+
+
+ a| 
+SL
+ a| 
+成功的iSCSI登入計數
+
+
+
+ a| 
+UL
+ a| 
+不成功的iSCSI登入計數
+
+
+
+ a| 
+SA
+ a| 
+成功的iSCSI驗證計數（啟用驗證時）
+
+
+
+ a| 
+UA
+ a| 
+不成功的iSCSI驗證計數（啟用驗證時）
+
+
+
+ a| 
+PDU
+ a| 
+已處理的正確iSCSI PDU數
+
+
+
+ a| 
+HDE
+ a| 
+具有標頭摘要錯誤的iSCSI PDU數
+
+
+
+ a| 
+DDE
+ a| 
+含有資料摘要錯誤的iSCSI PDU數
+
+
+
+ a| 
+PE
+ a| 
+具有iSCSI傳輸協定錯誤的PDU數
+
+
+
+ a| 
+客戶
+ a| 
+非預期的iSCSI工作階段終止數
+
+
+
+ a| 
+權
+ a| 
+非預期的iSCSI連線終止計數
+
+|===

@@ -1,0 +1,61 @@
+---
+permalink: sm-support/dcbx-operational-state-statistics.html 
+sidebar: sidebar 
+keywords: operational, state, statistics 
+summary: DCBX作業狀態統計資料 
+---
+= DCBX作業狀態統計資料
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+當您選取「資料中心橋接Exchange（DCBX）運作狀態統計資料」時、會顯示這些統計資料。
+
+[cols="2*"]
+|===
+| 統計資料 | 定義 
+
+
+ a| 
+iSCSI主機連接埠
+ a| 
+以「Controller #（控制器編號）」、「Port #（連接埠編號）」格式表示偵測到的主機連接埠位置。
+
+
+
+ a| 
+優先群組
+ a| 
+指出優先群組（PG）應用程式的作業狀態。狀態為「已啟用」或「已停用」。
+
+
+
+ a| 
+優先順序型流程控制
+ a| 
+指出優先順序型流量控制（PFC）功能的運作狀態。狀態為「已啟用」或「已停用」。
+
+
+
+ a| 
+iSCSI功能
+ a| 
+指出網際網路小型電腦系統介面（iSCSI）應用程式的運作狀態。狀態為「已啟用」或「已停用」。
+
+
+
+ a| 
+FCoE頻寬
+ a| 
+指出乙太網路光纖通道（FCoE）頻寬的狀態。狀態為「真」或「假」。
+
+
+
+ a| 
+無FCoE / FIP對應不符
+ a| 
+指出FCoE與FCoE初始化傳輸協定（FIP）之間是否存在對應不符。值為True或False。
+
+|===
+您可以在狀態擷取檔案中找到其他DCBX作業狀態統計資料。

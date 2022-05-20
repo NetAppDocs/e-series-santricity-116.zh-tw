@@ -1,0 +1,140 @@
+---
+section: sm-hardware
+title: 硬體
+entries:
+- title: 磁碟櫃
+  entries:
+  - title: 概念
+    entries:
+    - title: 硬體頁面總覽
+      url: "/sm-hardware/hardware-page-overview.html"
+    - title: 硬體術語
+      url: "/sm-hardware/hardware-terminology.html"
+  - title: 使用方法
+    entries:
+    - title: 檢視硬體元件
+      url: "/sm-hardware/view-hardware-components.html"
+    - title: 顯示或隱藏零組件狀態
+      url: "/sm-hardware/show-or-hide-component-status.html"
+    - title: 切換前後視圖
+      url: "/sm-hardware/switch-between-front-and-back-views.html"
+    - title: 變更磁碟櫃的檢視順序
+      url: "/sm-hardware/change-view-order-of-shelves.html"
+    - title: 開啟機櫃定位燈
+      url: "/sm-hardware/turn-on-shelf-locator-light.html"
+    - title: 變更機櫃ID
+      url: "/sm-hardware/change-shelf-ids.html"
+    - title: 檢視機櫃元件狀態和設定
+      url: "/sm-hardware/view-shelf-component-status-and-settings.html"
+    - title: 更新電池記憶週期
+      url: "/sm-hardware/update-battery-learn-cycles.html"
+  - title: 常見問題集
+    entries:
+    - title: 什麼是機櫃損失保護和藥櫃損失保護？
+      url: "/sm-hardware/what-is-shelf-loss-protection-and-drawer-loss-protection.html"
+    - title: 什麼是電池學習週期？
+      url: "/sm-hardware/what-are-battery-learn-cycles.html"
+- title: 控制器
+  entries:
+  - title: 概念
+    entries:
+    - title: 控制器術語
+      url: "/sm-hardware/controller-terminology.html"
+    - title: 控制器狀態
+      url: "/sm-hardware/controller-states.html"
+    - title: 指派IP位址的考量
+      url: "/sm-hardware/considerations-for-assigning-ip-addresses.html"
+  - title: 使用方法
+    entries:
+    - title: 設定管理連接埠
+      url: "/sm-hardware/configure-management-ports.html"
+    - title: 設定iSCSI連接埠
+      url: "/sm-hardware/configure-iscsi-ports-hardware.html"
+    - title: 在InfiniBand連接埠上設定iSER
+      url: "/sm-hardware/configure-iser-over-infiniband-ports-hardware.html"
+    - title: 設定NVMe over InfiniBand連接埠
+      url: "/sm-hardware/configure-nvme-over-infiniband-ports-hardware.html"
+    - title: 設定NVMe over RoCE連接埠
+      url: "/sm-hardware/configure-nvme-over-roce-ports-hardware.html"
+    - title: 設定NTP伺服器位址
+      url: "/sm-hardware/configure-ntp-server-addresses.html"
+    - title: 設定DNS伺服器位址
+      url: "/sm-hardware/configure-dns-server-addresses.html"
+    - title: 檢視控制器設定
+      url: "/sm-hardware/view-controller-settings.html"
+    - title: 允許遠端登入
+      url: "/sm-hardware/allow-remote-login.html"
+    - title: 將控制器置於線上
+      url: "/sm-hardware/place-controller-online.html"
+    - title: 使控制器離線
+      url: "/sm-hardware/place-controller-offline.html"
+    - title: 將控制器置於服務模式
+      url: "/sm-hardware/place-controller-in-service-mode.html"
+    - title: 重設（重新開機）控制器
+      url: "/sm-hardware/reset-reboot-controller.html"
+  - title: 常見問題集
+    entries:
+    - title: 什麼是自動交涉？
+      url: "/sm-hardware/what-is-auto-negotiation.html"
+    - title: 什麼是IPv6無狀態位址自動組態？
+      url: "/sm-hardware/what-is-ipv6-stateless-address-auto-configuration.html"
+    - title: 我應該選擇哪一項—DHCP或手動設定？
+      url: "/sm-hardware/which-do-i-choose-dhcp-or-manual-configuration.html"
+    - title: 什麼是DHCP伺服器？
+      url: "/sm-hardware/what-is-a-dhcp-server.html"
+    - title: 如何設定我的DHCP伺服器？
+      url: "/sm-hardware/how-do-i-configure-my-dhcp-server.html"
+    - title: 為何需要變更控制器網路組態？
+      url: "/sm-hardware/why-do-i-need-to-change-the-controller-network-configuration.html"
+    - title: 網路組態在哪裡？
+      url: "/sm-hardware/where-do-i-get-the-network-configuration.html"
+    - title: 什麼是ICMP ping回應？
+      url: "/sm-hardware/what-are-icmp-ping-responses.html"
+    - title: 何時應該從DHCP伺服器重新整理連接埠組態或iSNS伺服器？
+      url: "/sm-hardware/when-should-i-refresh-the-port-configuration-or-the-isns-server-from-the-dhcp-server.html"
+    - title: 設定管理連接埠之後該怎麼辦？
+      url: "/sm-hardware/what-should-i-do-after-configuring-the-management-ports.html"
+- title: 磁碟機
+  entries:
+  - title: 概念
+    entries:
+    - title: 推動術語
+      url: "/sm-hardware/drive-terminology.html"
+    - title: 磁碟機狀態
+      url: "/sm-hardware/drive-states.html"
+    - title: 固態磁碟（SSD）
+      url: "/sm-hardware/solid-state-disks-ssds.html"
+    - title: 熱備援磁碟機
+      url: "/sm-hardware/hot-spare-drives.html"
+  - title: 使用方法
+    entries:
+    - title: 限制磁碟機檢視
+      url: "/sm-hardware/limit-the-drive-view.html"
+    - title: 開啟磁碟機定位指示燈
+      url: "/sm-hardware/turn-on-drive-locator-light.html"
+    - title: 檢視磁碟機狀態和設定
+      url: "/sm-hardware/view-drive-status-and-settings.html"
+    - title: 以邏輯方式更換磁碟機
+      url: "/sm-hardware/replace-drive-logically-hardware.html"
+    - title: 手動重建磁碟機
+      url: "/sm-hardware/reconstruct-drive-manually.html"
+    - title: 初始化（格式化）磁碟機
+      url: "/sm-hardware/initialize-format-drive.html"
+    - title: 故障磁碟機
+      url: "/sm-hardware/fail-drive.html"
+    - title: 指派熱備援磁碟機
+      url: "/sm-hardware/assign-hot-spares-hardware.html"
+    - title: 取消指派熱備援磁碟機
+      url: "/sm-hardware/unassign-hot-spares.html"
+    - title: 清除啟用安全功能的磁碟機
+      url: "/sm-hardware/erase-drive.html"
+    - title: 解除鎖定或重設鎖定的NVMe磁碟機
+      url: "/sm-hardware/unlock-or-reset-a-locked-nvme-drive.html"
+  - title: 常見問題集
+    entries:
+    - title: 什麼是保留容量？
+      url: "/sm-hardware/what-is-preservation-capacity.html"
+    - title: 為什麼我要邏輯地更換磁碟機？
+      url: "/sm-hardware/why-would-i-logically-replace-a-drive.html"
+    - title: 何處可以檢視正在進行重建的磁碟機狀態？
+      url: "/sm-hardware/where-can-i-view-the-status-of-a-drive-undergoing-reconstruction.html"

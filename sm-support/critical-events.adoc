@@ -1,0 +1,18 @@
+---
+permalink: sm-support/critical-events.html 
+sidebar: sidebar 
+keywords: critical, events, indicate, problem, storage, array, resolve, immediately, might, prevent, loss, data, access 
+summary: 關鍵事件表示儲存陣列發生問題。如果您立即解決重大事件、可能會避免資料存取遺失。 
+---
+= 重大事件
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+關鍵事件表示儲存陣列發生問題。如果您立即解決重大事件、可能會避免資料存取遺失。
+
+發生重大事件時、會記錄在事件記錄中。所有重大事件都會傳送至SNMP管理主控台、或傳送至您已設定接收警示通知的電子郵件收件者。如果事件發生時尚不知道機櫃ID、則機櫃ID會列為「機櫃不明」。
+
+當您收到重大事件時、請參閱Recovery Guru程序以取得重大事件的詳細說明。完成Recovery Guru程序以修正重大事件。若要修正某些重大事件、您可能需要聯絡技術支援部門。

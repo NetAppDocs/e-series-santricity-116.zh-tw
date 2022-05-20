@@ -1,0 +1,13 @@
+---
+permalink: sm-mirroring/generic-concepts.html 
+sidebar: sidebar 
+keywords: concepts 
+summary: 概念 
+---
+= 概念
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+*深入瞭解...*

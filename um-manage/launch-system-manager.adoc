@@ -1,0 +1,23 @@
+---
+permalink: um-manage/launch-system-manager.html 
+sidebar: sidebar 
+keywords: manage, an, individual, storage, array, 
+summary: 當SANtricity 您想要執行管理作業時、可以使用「Launch」（啟動）選項、為一或多個儲存陣列開啟瀏覽器型的《SywSystem Manager》（系統管理程式）。 
+---
+= 管理個別的儲存陣列
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+當SANtricity 您想要執行管理作業時、可以使用「Launch」（啟動）選項、為一或多個儲存陣列開啟瀏覽器型的《SywSystem Manager》（系統管理程式）。
+
+.步驟
+. 從「*管理*」頁面中、選取您要管理的一或多個儲存陣列。
+. 按一下 * 「 Launch * 」。
++
+系統會開啟一個新視窗、並顯示SANtricity 「更新系統管理程式」登入頁面。
+
+. 輸入您的使用者名稱和密碼、然後按一下*登入*。
+

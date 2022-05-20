@@ -1,0 +1,73 @@
+---
+permalink: sm-support/dcbx-tlv-statistics.html 
+sidebar: sidebar 
+keywords: statistics, typical, definition, logical, host, port, indicate 
+summary: DCBX TLV統計資料 
+---
+= DCBX TLV統計資料
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+當您選取「資料中心橋接Exchange（DCBX）類型長度值（TLV）統計資料」時、會顯示下列統計資料：
+
+* *本機統計資料*-原廠控制器上設定的DCBX參數。
+* *營運統計資料*：DCBX協商結果的DCBX參數。
+* *遠端統計資料*-控制器所連接之對等裝置的DCBX參數、通常為交換器。
+
+
+[cols="2*"]
+|===
+| 統計資料 | 定義 
+
+
+ a| 
+iSCSI主機連接埠
+ a| 
+以「Controller #（控制器編號）」、「Port #（連接埠編號）」格式表示偵測到的主機連接埠位置。
+
+
+
+ a| 
+流程控制模式
+ a| 
+整個連接埠的流程控制模式。有效值包括「已停用」、「標準」、「每優先順序」或「不確定」。
+
+
+
+ a| 
+傳輸協定
+ a| 
+通訊協定。有效值為FCoE、FIP、iSCSI或UNKNOKNOWE。
+
+
+
+ a| 
+優先順序
+ a| 
+整數值、表示通訊的優先順序編號。
+
+
+
+ a| 
+優先群組
+ a| 
+整數值、表示已指派傳輸協定的優先順序群組。
+
+
+
+ a| 
+優先群組%頻寬
+ a| 
+百分比值表示分配給優先順序群組的頻寬量。
+
+
+
+ a| 
+DCBX PFC狀態
+ a| 
+特定連接埠的優先順序型流量控制（PFC）狀態。此值為啟用或停用。
+
+|===
+您可以在狀態擷取檔案中找到其他DCBX TLV統計資料。

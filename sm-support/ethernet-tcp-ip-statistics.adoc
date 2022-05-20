@@ -1,0 +1,192 @@
+---
+permalink: sm-support/ethernet-tcp-ip-statistics.html 
+sidebar: sidebar 
+keywords: ethernet, statistics, definition, statistics, transmitted, byte, expired 
+summary: 乙太網路TCP/IP統計資料 
+---
+= 乙太網路TCP/IP統計資料
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+選取「乙太網路TCP/IP統計資料」時、會顯示此表格中的TCP統計資料。您可以將每個統計資料檢視為原始統計資料或是基準統計資料。
+
+[cols="2*"]
+|===
+| 統計資料 | 定義 
+
+
+ a| 
+TXS
+ a| 
+傳輸的區段數
+
+
+
+ a| 
+TXB
+ a| 
+傳輸的位元組數
+
+
+
+ a| 
+RTxTE
+ a| 
+重新傳輸定時器過期計數
+
+
+
+ a| 
+TxDACK
+ a| 
+傳輸延遲的ACK計數
+
+
+
+ a| 
+TxACK
+ a| 
+傳輸ACK數
+
+
+
+ a| 
+Rxs
+ a| 
+已接收區段數
+
+
+
+ a| 
+RxB
+ a| 
+已接收位元組數
+
+
+
+ a| 
+RxDACK
+ a| 
+收到重複的ACK計數
+
+
+
+ a| 
+RxACK
+ a| 
+已接收ACK計數
+
+
+
+ a| 
+RxSEC
+ a| 
+已接收區段錯誤計數
+
+
+
+ a| 
+RxSOOC
+ a| 
+已接收區段訂單外計數
+
+
+
+ a| 
+Rxwp
+ a| 
+已接收的視窗探查計數
+
+
+
+ a| 
+RxWU
+ a| 
+已接收的視窗更新計數
+
+|===
+選取「乙太網路TCP/IP統計資料」時、會顯示此表格中的IP統計資料。
+
+[cols="2*"]
+|===
+| 統計資料 | 定義 
+
+
+ a| 
+TxP
+ a| 
+傳輸的封包數
+
+
+
+ a| 
+TXB
+ a| 
+傳輸的位元組數
+
+
+
+ a| 
+TxF
+ a| 
+傳輸的片段計數
+
+
+
+ a| 
+RxP
+ a| 
+接收的封包數。選取*顯示IPV4以顯示接收的IPV4封包數。選取*顯示IPv6 *以顯示接收的IPv6封包數。
+
+
+
+ a| 
+RxB
+ a| 
+已接收位元組數
+
+
+
+ a| 
+RxF
+ a| 
+已接收的片段計數
+
+
+
+ a| 
+RxPE
+ a| 
+收到的封包錯誤計數
+
+
+
+ a| 
+災難恢復
+ a| 
+資料報重組計數
+
+
+
+ a| 
+Dre-OLFC
+ a| 
+資料報重組錯誤、重疊的片段計數
+
+
+
+ a| 
+Dre-OOFC
+ a| 
+資料包重組錯誤、片段計數順序不正確
+
+
+
+ a| 
+目錄
+ a| 
+資料報重組錯誤、逾時計數
+
+|===

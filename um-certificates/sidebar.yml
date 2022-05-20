@@ -1,0 +1,66 @@
+---
+section: um-certificates
+title: 憑證與驗證
+entries:
+- title: 憑證管理
+  entries:
+  - title: 概念
+    entries:
+    - title: 憑證的運作方式
+      url: "/um-certificates/how-certificates-work-unified.html"
+    - title: 憑證術語
+      url: "/um-certificates/certificate-terminology-unified.html"
+  - title: 使用方法
+    entries:
+    - title: 使用CA簽署的憑證
+      url: "/um-certificates/use-ca-signed-certificate-um.html"
+    - title: 重設管理憑證
+      url: "/um-certificates/reset-management-certificates-unified.html"
+    - title: 匯入陣列的憑證
+      url: "/um-certificates/import-array-certificates-unified.html"
+    - title: 檢視憑證
+      url: "/um-certificates/view-certificates-unified.html"
+    - title: 匯出憑證
+      url: "/um-certificates/export-certificates-unified.html"
+    - title: 刪除信任的憑證
+      url: "/um-certificates/delete-trusted-certificates-unified.html"
+    - title: 解決不受信任的憑證
+      url: "/um-certificates/resolve-untrusted-certificates-certificate-page.html"
+- title: 存取管理
+  entries:
+  - title: 概念
+    entries:
+    - title: 存取管理的運作方式
+      url: "/um-certificates/how-access-management-works-unified.html"
+    - title: 存取管理術語
+      url: "/um-certificates/access-management-terminology-unified.html"
+    - title: 對應角色的權限
+      url: "/um-certificates/permissions-for-mapped-roles-unified.html"
+    - title: 具有本機使用者角色的存取管理
+      url: "/um-certificates/access-management-with-local-user-roles-unified.html"
+    - title: 使用目錄服務進行存取管理
+      url: "/um-certificates/access-management-with-directory-services-unified.html"
+  - title: 使用方法
+    entries:
+    - title: 檢視本機使用者角色
+      url: "/um-certificates/view-local-user-roles-unified.html"
+    - title: 變更密碼
+      url: "/um-certificates/change-passwords-unified.html"
+    - title: 變更本機使用者密碼設定
+      url: "/um-certificates/change-local-user-passwords-settings-unified.html"
+    - title: 新增目錄伺服器
+      url: "/um-certificates/add-directory-server-unified.html"
+    - title: 編輯目錄伺服器設定和角色對應
+      url: "/um-certificates/edit-directory-server-settings-unified.html"
+    - title: 移除目錄伺服器
+      url: "/um-certificates/remove-directory-server-unified.html"
+  - title: 常見問題集
+    entries:
+    - title: 為什麼我無法登入？
+      url: "/um-certificates/why-cant-i-log-in-unified.html"
+    - title: 新增目錄伺服器之前、我需要知道什麼？
+      url: "/um-certificates/what-do-i-need-to-know-before-adding-a-directory-server-unified.html"
+    - title: 我需要知道哪些關於對應至儲存陣列角色的資訊？
+      url: "/um-certificates/what-do-i-need-to-know-about-mapping-storage-array-roles-unified.html"
+    - title: 什麼是本機使用者？
+      url: "/um-certificates/what-are-the-local-users.html"

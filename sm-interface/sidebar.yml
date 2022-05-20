@@ -1,0 +1,60 @@
+---
+section: sm-interface
+title: 主介面
+entries:
+- title: 首頁
+  url: "/sm-interface/home-page.html"
+- title: 設定精靈
+  entries:
+  - title: 概念
+    entries:
+    - title: 設定精靈總覽
+      url: "/sm-interface/setup-wizard-overview.html"
+    - title: 設定精靈術語
+      url: "/sm-interface/setup-wizard-terminology.html"
+  - title: 常見問題集
+    entries:
+    - title: 如果我看不到所有的硬體元件、該怎麼辦？
+      url: "/sm-interface/what-if-i-dont-see-all-of-my-hardware-components.html"
+    - title: 如果我看不到所有主機、該怎麼辦？
+      url: "/sm-interface/what-if-i-dont-see-all-of-my-hosts.html"
+    - title: 識別應用程式如何協助我管理儲存陣列？
+      url: "/sm-interface/how-does-identifying-applications-help-me-manage-my-storage-array.html"
+    - title: 什麼是工作負載？
+      url: "/sm-interface/what-is-a-workload.html"
+    - title: 我要如何設定AutoSupport 供應方法以利執行？
+      url: "/sm-interface/how-do-i-configure-the-delivery-method-for-autosupport-new.html"
+    - title: 如何知道我是否應該接受建議的集區組態？
+      url: "/sm-interface/how-do-i-know-if-i-should-accept-the-recommended-pool-configuration.html"
+    - title: System Manager未偵測到任何主機。我該怎麼辦？
+      url: "/sm-interface/system-manager-has-not-detected-any-hosts-what-do-i-do.html"
+- title: 儲存陣列管理
+  entries:
+  - title: 概念
+    entries:
+    - title: 儲存陣列總覽
+      url: "/sm-interface/storage-array-overview.html"
+    - title: 系統管理員密碼保護
+      url: "/sm-interface/administrator-password-protection.html"
+    - title: 問題通知
+      url: "/sm-interface/problem-notification.html"
+    - title: 營運進行中
+      url: "/sm-interface/operations-in-progress.html"
+  - title: 使用方法
+    entries:
+    - title: 設定容量值的預設單位
+      url: "/sm-interface/set-default-units-for-capacity-values.html"
+    - title: 設定效能圖表的預設時間範圍
+      url: "/sm-interface/set-default-time-frame-for-performance-graphs.html"
+    - title: 使用Recovery Guru從問題中恢復
+      url: "/sm-interface/recover-from-problems-using-recovery-guru.html"
+    - title: 檢視進行中的作業並採取行動
+      url: "/sm-interface/view-and-act-on-operations-in-progress.html"
+  - title: 常見問題集
+    entries:
+    - title: 哪裡可以找到更多有關顯示偏好設定的資訊？
+      url: "/sm-interface/where-can-i-find-more-information-about-display-preferences.html"
+    - title: 支援哪些瀏覽器？
+      url: "/sm-interface/what-are-the-supported-browsers.html"
+    - title: 什麼是鍵盤快速鍵？
+      url: "/sm-interface/what-are-the-keyboard-shortcuts.html"

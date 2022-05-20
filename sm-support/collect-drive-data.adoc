@@ -1,0 +1,39 @@
+---
+permalink: sm-support/collect-drive-data.html 
+sidebar: sidebar 
+keywords: collect, log, data, drives, storage, array, send, file, technical, support, analysis, task 
+summary: 您可以從儲存陣列中的所有磁碟機收集記錄資料、然後將檔案傳送給技術支援部門進行分析。 
+---
+= 收集磁碟機資料
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以從儲存陣列中的所有磁碟機收集記錄資料、然後將檔案傳送給技術支援部門進行分析。
+
+記錄資料是由儲存陣列中每個磁碟機所維護的統計資訊所組成。技術支援人員可以使用此資訊來分析磁碟機的效能、以及疑難排解可能存在的問題。
+
+[NOTE]
+====
+只有在技術支援人員的指示下、才執行此作業。
+
+====
+.步驟
+. 選取功能表：Support（支援）[Support Center（支援中心）> Diagnostics（診斷）]索引標籤。
+. 選擇*收集磁碟機資料*。
++
+此時會出現一個對話方塊、列出儲存陣列中的所有磁碟機。
+
+. 在表格的第一欄中、您可以選取要收集資料的個別磁碟機（按一下每個磁碟機旁的核取方塊）、或選取所有磁碟機（選取表格標題中的核取方塊）。
++
+若要尋找特定磁碟機、您可以在*篩選器*方塊中排序任何欄或輸入字元。
+
+. 按一下「* Collect*」。
++
+檔案會以「drive-data.7z」的名稱儲存在瀏覽器的「下載」資料夾中。
+
+. 請依照技術支援人員提供的指示、將檔案傳送給他們。
+

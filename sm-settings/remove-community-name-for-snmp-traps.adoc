@@ -1,0 +1,34 @@
+---
+permalink: sm-settings/remove-community-name-for-snmp-traps.html 
+sidebar: sidebar 
+keywords: remove, community, snmp traps 
+summary: 您可以移除SNMP設陷的社群名稱。 
+---
+= 移除SNMP設陷的社群名稱
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以移除SNMP設陷的社群名稱。
+
+.步驟
+. 選取*功能表：設定[警示]*。
+. 選取「* SNMP *」索引標籤。
++
+設陷目的地和社群名稱會顯示在警示頁面上。
+
+. 選擇*設定社群*。
++
+「*組態社群*」對話方塊隨即開啟。
+
+. 選取您要刪除的社群名稱、然後按一下最右側的*移除*（X）圖示。
++
+如果陷阱目的地與此社群名稱相關聯、則「*確認移除社群*」對話方塊會顯示受影響的陷阱目的地位址。
+
+. 確認操作、然後按一下*移除*。
+
+
+社群名稱及其相關的設陷目的地會從「*警示*」頁面中移除。

@@ -1,0 +1,14 @@
+---
+permalink: sm-storage/what-media-types-are-supported-for-a-drive.html 
+sidebar: sidebar 
+keywords: following, media, types, support, hard disk, solid, state, drive 
+summary: 支援下列媒體類型：硬碟機（HDD）和固態磁碟（SSD）。 
+---
+= 磁碟機支援哪些媒體類型？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+支援下列媒體類型：硬碟機（HDD）和固態磁碟（SSD）。
