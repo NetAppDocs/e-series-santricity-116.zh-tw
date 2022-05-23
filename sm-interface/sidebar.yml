@@ -4,6 +4,8 @@ title: 主介面
 entries:
 - title: 首頁
   url: "/sm-interface/home-page.html"
+- title: 新增功能
+  url: "/whats-new.html"
 - title: 設定精靈
   entries:
   - title: 概念

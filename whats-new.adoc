@@ -1,0 +1,115 @@
+---
+sidebar: sidebar 
+permalink: whats-new.html 
+keywords: whats new, new features, 
+summary: 更新功能。SANtricity 
+---
+= 更新功能SANtricity
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+下表說明SANtricity 了ROS 11.6%的新功能。
+
+
+
+== 11.62版的新功能
+
+[cols="35h,~"]
+|===
+| 新功能 | 說明 
+
+
+ a| 
+可下載的CLI
+ a| 
+E5700、EF570、E2800及EF280陣列的系統管理員現在可SANtricity 透過功能表：「Settings[系統>附加元件]頁面中的連結、下載及安裝「更新指令行介面」（CLI）。這是以https為基礎的CLI版本（也稱為「安全CLI」）。此功能先前已隨EF600陣列一起推出。
+
+
+
+ a| 
+在System Manager和Unified Manager中鏡射組態變更
+ a| 
+設定同步和非同步鏡射配對的工作已從System Manager移至Unified Manager。管理鏡射配對的所有其他工作都會保留在System Manager中。
+
+
+
+ a| 
+全新200GB容量HIC（僅限EF600陣列）
+ a| 
+此版本為EF600儲存陣列新增可容納200GB的HIC。支援的介面包括NVMe / IB、NVMe / RoCE和iSER / IB。此外、還支援100GB SRP/IB。
+
+
+
+ a| 
+100GB HIC的其他選項（僅限EF600陣列）
+ a| 
+在現有的100GB HIC上、EF600儲存陣列現在支援iSER / IB和SRP/IB介面。（EF570和E5700陣列已支援這些介面。）
+
+
+
+ a| 
+刪除System Manager中的郵件伺服器
+ a| 
+System Manager允許設定郵件伺服器、但沒有簡單的移除機制。在此版本中、System Manager中的郵件伺服器組態現在可以從警示中移除、因此警示不會再傳送到與此郵件伺服器相關的電子郵件地址。
+
+
+
+ a| 
+System Manager中的資源池和磁碟區群組（僅限SSD磁碟機）最佳化容量調整
+ a| 
+對於SSD磁碟機、System Manager中有一個新的最佳化容量滑桿可供集區設定和Volume Group設定使用。滑桿可讓您調整可用容量與SSD寫入效能的平衡、以及磁碟機的耗損壽命。
+
+
+
+ a| 
+System Manager中的新主機類型
+ a| 
+當您在System Manager中建立新主機時、所顯示的主機選項現在會分成三個類別、以提供更好的指引：一般、不常見、僅在指示時才使用。
+
+|===
+
+
+== 11.61版的新功能
+
+[cols="35h,~"]
+|===
+| 新功能 | 說明 
+
+
+ a| 
+EF600的Fibre Channel支援
+ a| 
+此版本新增EF600儲存系統的Fibre Channel主機支援。這是EF600支援的第一部SCSI主機、最初隨所有NVMe over Fabric主機傳輸協定一起發行。EF600的單一控制器可在System Manager中檢視及管理。可在Unified Manager中檢視及管理多個EF600儲存系統。
+
+
+
+ a| 
+管理使用者的密碼需求
+ a| 
+在Unified Manager中初次登入時、您現在必須輸入系統管理員使用者的密碼。不再有預設的「admin」密碼。
+
+|===
+
+
+== 11.60版的新功能
+
+[cols="35h,~"]
+|===
+| 新功能 | 說明 
+
+
+ a| 
+全新儲存系統機型–EF600
+ a| 
+此版本提供全新EF600 All Flash儲存系統。EF600包括NVMe主機介面和NVMe SSD。
+
+EF600可大幅提高處理量並縮短延遲時間。支援的主機介面包括NVMe over IB、NVMe over RoCE和NVMe over FC、可在System Manager中設定。可在Unified Manager中檢視及管理多個EF600儲存系統。
+
+
+
+| 可下載的CLI | System Manager現在可SANtricity 透過功能表：「Settings[系統>附加元件]頁面中的連結、下載及安裝更新指令列介面（CLI）。這是基於https的CLI版本。舊SANtricity 版的不完整儲存管理程式套件仍包含CLI。 
+|===

@@ -7462,4 +7462,34 @@
   <block id="4a8aaebc73b69b1dce072d72f2645856" category="sidebar">為什麼我看不到遠端儲存陣列上的所有磁碟區？</block>
   <block id="87f96b0027c75822fb47500bccdbe043" category="sidebar">憑證與驗證</block>
   <block id="8e98fe16abd52051c3a673ef6c4b861a" category="sidebar">憑證管理</block>
+  <block id="7bf44c1a455e947396fedd5ddf411974" category="summary">更新功能。SANtricity</block>
+  <block id="3e51dae0ccee21d31dadce7f2987765d" category="doc">更新功能SANtricity</block>
+  <block id="b27e80bbb04022f0cdf22e2f64a03a2a" category="paragraph">下表說明SANtricity 了ROS 11.6%的新功能。</block>
+  <block id="cf4445a7eef921679098b2f4131f5a2f" category="section-title">11.62版的新功能</block>
+  <block id="824a3a83a007a97494ec5981cebf67a5" category="cell">新功能</block>
+  <block id="f4740fe043692686bff5987f7d3557f0" category="paragraph">可下載的CLI</block>
+  <block id="f85e6008eadf9b6f5123fc4a952e338f" category="paragraph">E5700、EF570、E2800及EF280陣列的系統管理員現在可SANtricity 透過功能表：「Settings[系統&gt;附加元件]頁面中的連結、下載及安裝「更新指令行介面」（CLI）。這是以https為基礎的CLI版本（也稱為「安全CLI」）。此功能先前已隨EF600陣列一起推出。</block>
+  <block id="20a8e026f8801c6dc7f85921b7ed5396" category="paragraph">在System Manager和Unified Manager中鏡射組態變更</block>
+  <block id="1b63d49ee8164010b2299ddbd66ab218" category="paragraph">設定同步和非同步鏡射配對的工作已從System Manager移至Unified Manager。管理鏡射配對的所有其他工作都會保留在System Manager中。</block>
+  <block id="577d6487a578c561bd8b1ba8f3e35f00" category="paragraph">全新200GB容量HIC（僅限EF600陣列）</block>
+  <block id="c7fe0af5c6a7815338a4041bedd06b05" category="paragraph">此版本為EF600儲存陣列新增可容納200GB的HIC。支援的介面包括NVMe / IB、NVMe / RoCE和iSER / IB。此外、還支援100GB SRP/IB。</block>
+  <block id="92b625f47297ed61b6ea90f28eb3cee0" category="paragraph">100GB HIC的其他選項（僅限EF600陣列）</block>
+  <block id="ce239842aa6ba86c5686e62d495a1edc" category="paragraph">在現有的100GB HIC上、EF600儲存陣列現在支援iSER / IB和SRP/IB介面。（EF570和E5700陣列已支援這些介面。）</block>
+  <block id="61fc6d3b31f75e49fd741c2a3414985e" category="paragraph">刪除System Manager中的郵件伺服器</block>
+  <block id="c3c597b171820c3b63cc89aadca3ee72" category="paragraph">System Manager允許設定郵件伺服器、但沒有簡單的移除機制。在此版本中、System Manager中的郵件伺服器組態現在可以從警示中移除、因此警示不會再傳送到與此郵件伺服器相關的電子郵件地址。</block>
+  <block id="429a7eaffcf0b0928c3609e8db574428" category="paragraph">System Manager中的資源池和磁碟區群組（僅限SSD磁碟機）最佳化容量調整</block>
+  <block id="15be529df08588751b09e31d63467867" category="paragraph">對於SSD磁碟機、System Manager中有一個新的最佳化容量滑桿可供集區設定和Volume Group設定使用。滑桿可讓您調整可用容量與SSD寫入效能的平衡、以及磁碟機的耗損壽命。</block>
+  <block id="3c0d8b68f58e4a92b53c03796ffc89a7" category="paragraph">System Manager中的新主機類型</block>
+  <block id="b0cc84448c9b87b4db11d788c3487f8c" category="paragraph">當您在System Manager中建立新主機時、所顯示的主機選項現在會分成三個類別、以提供更好的指引：一般、不常見、僅在指示時才使用。</block>
+  <block id="e7d1ffe6a547a9967f9704754e4dc141" category="section-title">11.61版的新功能</block>
+  <block id="3f0e7718843e6908b139903b37e8448f" category="paragraph">EF600的Fibre Channel支援</block>
+  <block id="4f8980f6ce1a0e7d3381354fcb329a38" category="paragraph">此版本新增EF600儲存系統的Fibre Channel主機支援。這是EF600支援的第一部SCSI主機、最初隨所有NVMe over Fabric主機傳輸協定一起發行。EF600的單一控制器可在System Manager中檢視及管理。可在Unified Manager中檢視及管理多個EF600儲存系統。</block>
+  <block id="d482de938ace6344fb6e3bd4f48298f4" category="paragraph">管理使用者的密碼需求</block>
+  <block id="b7c346882ba8056d9aae672c54837658" category="paragraph">在Unified Manager中初次登入時、您現在必須輸入系統管理員使用者的密碼。不再有預設的「admin」密碼。</block>
+  <block id="3cadd28677a808dfd3dc83028ce0e618" category="section-title">11.60版的新功能</block>
+  <block id="6a720c2d111f2910969f4af776987b6c" category="paragraph">全新儲存系統機型–EF600</block>
+  <block id="827a0646aa7dbec20924786ee02858fd" category="paragraph">此版本提供全新EF600 All Flash儲存系統。EF600包括NVMe主機介面和NVMe SSD。</block>
+  <block id="dd653c0b6bc0cf0f23e208b0da4baee1" category="paragraph">EF600可大幅提高處理量並縮短延遲時間。支援的主機介面包括NVMe over IB、NVMe over RoCE和NVMe over FC、可在System Manager中設定。可在Unified Manager中檢視及管理多個EF600儲存系統。</block>
+  <block id="3975daee7f1db295a72280ffe0739e54" category="cell">System Manager現在可SANtricity 透過功能表：「Settings[系統&gt;附加元件]頁面中的連結、下載及安裝更新指令列介面（CLI）。這是基於https的CLI版本。舊SANtricity 版的不完整儲存管理程式套件仍包含CLI。</block>
+  <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">新增功能</block>
 </blocks>

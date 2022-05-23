@@ -4,6 +4,8 @@ indexpage:
   tiles:
   - title: 開始使用
     links:
+    - title: 新增功能
+      url: "/whats-new.html"
     - title: System Manager介面
       url: "/sm-interface/home-page.html"
     - title: Unified Manager介面
