@@ -7492,4 +7492,5 @@
   <block id="dd653c0b6bc0cf0f23e208b0da4baee1" category="paragraph">EF600可大幅提高處理量並縮短延遲時間。支援的主機介面包括NVMe over IB、NVMe over RoCE和NVMe over FC、可在System Manager中設定。可在Unified Manager中檢視及管理多個EF600儲存系統。</block>
   <block id="3975daee7f1db295a72280ffe0739e54" category="cell">System Manager現在可SANtricity 透過功能表：「Settings[系統&gt;附加元件]頁面中的連結、下載及安裝更新指令列介面（CLI）。這是基於https的CLI版本。舊SANtricity 版的不完整儲存管理程式套件仍包含CLI。</block>
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">新增功能</block>
+  <block id="c62c395ffcd8aa3e5d38fe7155d2f510" category="sidebar">軟件SANtricity</block>
 </blocks>
