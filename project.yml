@@ -8,11 +8,11 @@ settings:
     harmony_enabled: false
   versions:
   - name: 軟件SANtricity
-    url: "/e-series-santricity"
-    version-number: '11.7'
-  - name: 軟件SANtricity
     url: "/e-series-santricity-116"
     version-number: '11.6'
+  - name: 軟件SANtricity
+    url: "/e-series-santricity"
+    version-number: '11.7'
   - name: 軟件SANtricity
     url: "/e-series-santricity-115"
     version-number: '11.5'
