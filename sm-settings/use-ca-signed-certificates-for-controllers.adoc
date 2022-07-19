@@ -80,7 +80,7 @@ CSR提供組織、控制器IP位址或DNS名稱的相關資訊、以及識別控
 
 . 找到下載的CSR檔案。資料夾位置取決於您的瀏覽器。
 . 將CSR檔案提交給CA、並以PEEM格式要求簽署的憑證。
-. 等待CA傳回憑證、然後前往 <<Step 2: Import signed certificates for controllers>>。
+. 等待CA傳回憑證、然後前往  2: Import signed certificates for controllers。
 
 
 

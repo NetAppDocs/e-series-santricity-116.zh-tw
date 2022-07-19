@@ -45,7 +45,7 @@ summary: 您會發現多個陣列、偵測管理伺服器所在子網路上的�
 針對您要新增至管理網域的每個陣列、執行身分證明檢查。SANtricity您可能需要解析任何與該陣列相關的自我簽署憑證和不受信任的憑證。
 
 . 單擊*下一步*繼續執行精靈中的下一步。
-. 前往 <<Step 2: Resolve self-signed certificates during discovery>>。
+. 前往  2: Resolve self-signed certificates during discovery。
 
 
 
@@ -66,7 +66,7 @@ summary: 您會發現多個陣列、偵測管理伺服器所在子網路上的�
 
 
 . 單擊*下一步*繼續執行精靈中的下一步。
-. 前往 <<Step 3: Resolve untrusted certificates during discovery>>。
+. 前往  3: Resolve untrusted certificates during discovery。
 
 
 
@@ -110,7 +110,7 @@ summary: 您會發現多個陣列、偵測管理伺服器所在子網路上的�
 
 ====
 . 單擊*下一步*繼續執行精靈中的下一步。
-. 前往 <<Step 4: Provide passwords>>。
+. 前往  4: Provide passwords。
 
 
 
