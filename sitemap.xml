@@ -531,14 +531,14 @@
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/zh-tw/e-series-santricity-116/sm-storage/change-the-reserved-capacity-settings-for-a-mirrored-pair-volume.html</loc>
+      <loc>https://docs.netapp.com/zh-tw/e-series-santricity-116/sm-mirroring/change-the-reserved-capacity-settings-for-a-mirrored-pair-volume.html</loc>
       
       <lastmod>2022-05-21T02:55:03+00:00</lastmod>
       
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/zh-tw/e-series-santricity-116/sm-mirroring/change-the-reserved-capacity-settings-for-a-mirrored-pair-volume.html</loc>
+      <loc>https://docs.netapp.com/zh-tw/e-series-santricity-116/sm-storage/change-the-reserved-capacity-settings-for-a-mirrored-pair-volume.html</loc>
       
       <lastmod>2022-05-21T02:55:03+00:00</lastmod>
       
@@ -1826,13 +1826,6 @@
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/zh-tw/e-series-santricity-116/sm-storage/increase-reserved-capacity.html</loc>
-      
-      <lastmod>2022-05-21T02:55:03+00:00</lastmod>
-      
-    </url>
-  
-    <url>
       <loc>https://docs.netapp.com/zh-tw/e-series-santricity-116/sm-mirroring/increase-reserved-capacity.html</loc>
       
       <lastmod>2022-05-21T02:55:03+00:00</lastmod>
@@ -1840,21 +1833,14 @@
     </url>
   
     <url>
+      <loc>https://docs.netapp.com/zh-tw/e-series-santricity-116/sm-storage/increase-reserved-capacity.html</loc>
+      
+      <lastmod>2022-05-21T02:55:03+00:00</lastmod>
+      
+    </url>
+  
+    <url>
       <loc>https://docs.netapp.com/zh-tw/e-series-santricity-116/sm-support/</loc>
-      
-      <lastmod>2022-05-21T02:55:03+00:00</lastmod>
-      
-    </url>
-  
-    <url>
-      <loc>https://docs.netapp.com/zh-tw/e-series-santricity-116/sm-storage/</loc>
-      
-      <lastmod>2022-05-21T02:55:03+00:00</lastmod>
-      
-    </url>
-  
-    <url>
-      <loc>https://docs.netapp.com/zh-tw/e-series-santricity-116/um-admin/</loc>
       
       <lastmod>2022-05-21T02:55:03+00:00</lastmod>
       
@@ -1882,6 +1868,13 @@
     </url>
   
     <url>
+      <loc>https://docs.netapp.com/zh-tw/e-series-santricity-116/um-certificates/</loc>
+      
+      <lastmod>2022-05-21T02:55:03+00:00</lastmod>
+      
+    </url>
+  
+    <url>
       <loc>https://docs.netapp.com/zh-tw/e-series-santricity-116/sm-mirroring/</loc>
       
       <lastmod>2022-05-21T02:55:03+00:00</lastmod>
@@ -1889,14 +1882,21 @@
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/zh-tw/e-series-santricity-116/um-manage/</loc>
+      <loc>https://docs.netapp.com/zh-tw/e-series-santricity-116/um-admin/</loc>
       
       <lastmod>2022-05-21T02:55:03+00:00</lastmod>
       
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/zh-tw/e-series-santricity-116/um-certificates/</loc>
+      <loc>https://docs.netapp.com/zh-tw/e-series-santricity-116/sm-storage/</loc>
+      
+      <lastmod>2022-05-21T02:55:03+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/zh-tw/e-series-santricity-116/um-manage/</loc>
       
       <lastmod>2022-05-21T02:55:03+00:00</lastmod>
       
@@ -2402,7 +2402,7 @@
     <url>
       <loc>https://docs.netapp.com/zh-tw/e-series-santricity-116//search.html</loc>
       
-      <lastmod>2022-05-27T14:05:11+00:00</lastmod>
+      <lastmod>2022-07-19T11:41:58+00:00</lastmod>
       
     </url>
   
