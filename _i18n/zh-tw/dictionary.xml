@@ -7493,4 +7493,5 @@
   <block id="3975daee7f1db295a72280ffe0739e54" category="cell">System Manager現在可SANtricity 透過功能表：「Settings[系統&gt;附加元件]頁面中的連結、下載及安裝更新指令列介面（CLI）。這是基於https的CLI版本。舊SANtricity 版的不完整儲存管理程式套件仍包含CLI。</block>
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">新增功能</block>
   <block id="c62c395ffcd8aa3e5d38fe7155d2f510" category="sidebar">軟件SANtricity</block>
+  <block id="8eea62084ca7e541d918e823422bd82e" category="paragraph-title">結果</block>
 </blocks>
